@@ -1,1 +1,1 @@
-all the codea are in assembly .
+This is a project I stsrted to implement a small opertating system.
