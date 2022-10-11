@@ -1,1 +1,1 @@
-This is a project I stsrted to implement a small opertating system.
+Switch to C. To perform more user friendly implementations.
