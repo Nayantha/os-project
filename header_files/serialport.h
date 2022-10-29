@@ -8,7 +8,7 @@
 #define SERIAL_LINE_STATUS_PORT(base)   (base + 5)
 #define SERIAL_LINE_ENABLE_DLAB         0x80
 
-enum BaudRate {Baud_115200=1,Baud_57600,Baud_19200,Baud_9600};
+enum BaudRate {Baud_115200=1,Baud_57600=2,Baud_19200=4,Baud_9600=8};
 enum BaudRate divisor = Baud_115200;
 
 void serial_configure_baud_rate(unsigned short com, unsigned short divisor)
@@ -43,11 +43,11 @@ void serial_configure_modem(unsigned short com)
     }
 
 
-void serial_configure(unsigned short port, unsigned short baudRate)
+void serial_configure(unsigned short com, unsigned short divisor)
     {
-	serial_configure_baud_rate(port, baudRate);
-	serial_configure_line(port);
-	serial_configure_fifo_buffer(port);
-	serial_configure_modem(port);
+	serial_configure_baud_rate(com, divisor);
+	serial_configure_line(com);
+	serial_configure_fifo_buffer(com);
+	serial_configure_modem(com);
     }
     
