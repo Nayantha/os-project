@@ -24,8 +24,16 @@
         
         
     ; The assembly code
+<<<<<<< HEAD
     extern main   		  ; the function main is defined in kmain.c
     call main                   	; call the function, the result will be in eax
+=======
+    extern sum_of_three   		  ; the function sum_of_three is defined elsewhere
+    push dword 3           		  ; arg3
+    push dword 2            	     	  ; arg2
+    push dword 1            		  ; arg1
+    call sum_of_three                   ; call the function, the result will be in eax
+>>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
     
     
     .loop:

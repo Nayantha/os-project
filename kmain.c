@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "header_files/framebuffer.h"
 #include "header_files/serialport.h"
 
@@ -48,3 +49,10 @@ serial_write(0x3F8, testText);
 	
 }
 
+=======
+ /* The C function */
+int sum_of_three(int arg1, int arg2, int arg3)
+    {
+        return arg1 + arg2 + arg3;
+    }
+>>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32

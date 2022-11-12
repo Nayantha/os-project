@@ -1,4 +1,8 @@
+<<<<<<< HEAD
     OBJECTS = loader.o kmain.o io.o
+=======
+    OBJECTS = loader.o kmain.o
+>>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
     CC = gcc
     CFLAGS = -m32 -nostdlib -nostdinc -fno-builtin -fno-stack-protector \
              -nostartfiles -nodefaultlibs -Wall -Wextra -Werror -c
@@ -34,4 +38,8 @@
 	$(AS) $(ASFLAGS) $< -o $@
 
     clean:
+<<<<<<< HEAD
 	rm -rf *.o kernel.elf os.iso
+=======
+	rm -rf *.o kernel.elf os.iso
+>>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
