@@ -25,6 +25,7 @@
         
     ; The assembly code
 <<<<<<< HEAD
+<<<<<<< HEAD
     extern main   		  ; the function main is defined in kmain.c
     call main                   	; call the function, the result will be in eax
 =======
@@ -34,6 +35,10 @@
     push dword 1            		  ; arg1
     call sum_of_three                   ; call the function, the result will be in eax
 >>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
+=======
+    extern main   		  ; the function main is defined in kmain.c
+    call main                   	; call the function, the result will be in eax
+>>>>>>> 4f904a0727bf821067d824a5f264c465c2a69310
     
     
     .loop:

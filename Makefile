@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
     OBJECTS = loader.o kmain.o io.o
 =======
     OBJECTS = loader.o kmain.o
 >>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
+=======
+    OBJECTS = loader.o kmain.o io.o
+>>>>>>> 4f904a0727bf821067d824a5f264c465c2a69310
     CC = gcc
     CFLAGS = -m32 -nostdlib -nostdinc -fno-builtin -fno-stack-protector \
              -nostartfiles -nodefaultlibs -Wall -Wextra -Werror -c
@@ -39,7 +43,11 @@
 
     clean:
 <<<<<<< HEAD
+<<<<<<< HEAD
 	rm -rf *.o kernel.elf os.iso
 =======
 	rm -rf *.o kernel.elf os.iso
 >>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
+=======
+	rm -rf *.o kernel.elf os.iso
+>>>>>>> 4f904a0727bf821067d824a5f264c465c2a69310

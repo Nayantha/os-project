@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 megs:               32
 display_library: sdl
 romimage:        file=/usr/share/bochs/BIOS-bochs-latest
@@ -11,12 +12,23 @@ cpu:                 count=1, ips=1000000
 com1:              enabled=1, mode=file, dev=com.out
 =======
 megs:            32
+=======
+megs:               32
+>>>>>>> 4f904a0727bf821067d824a5f264c465c2a69310
 display_library: sdl
 romimage:        file=/usr/share/bochs/BIOS-bochs-latest
-vgaromimage:     file=/usr/share/bochs/VGABIOS-lgpl-latest
+vgaromimage:  file=/usr/share/bochs/VGABIOS-lgpl-latest
 ata0-master:     type=cdrom, path=os.iso, status=inserted
+<<<<<<< HEAD
 boot:            cdrom
 log:             bochslog.txt
 clock:           sync=realtime, time0=local
 cpu:             count=1, ips=1000000
 >>>>>>> d49567d6a6eebd64ef778a18ce21b5b92a8fba32
+=======
+boot:                 cdrom
+log:                   bochslog.txt
+clock:               sync=realtime, time0=local
+cpu:                 count=1, ips=1000000
+com1:              enabled=1, mode=file, dev=com.out
+>>>>>>> 4f904a0727bf821067d824a5f264c465c2a69310
